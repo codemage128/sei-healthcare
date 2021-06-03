@@ -1,0 +1,1257 @@
+
+
+/*using font family
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Kaftan Serif';
+  font-family: 'Geomanist';
+
+  */
+
+  /* Default CSS */
+  html, body, div, span, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  abbr, address, cite, code,
+  del, dfn, em, img, ins, kbd, q, samp,
+  small, strong, sub, sup, var,
+  b, i,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section, summary,
+  time, mark, audio, span, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   background: transparent;
+ }
+ table {
+   border-collapse: collapse;
+   border-spacing: 0;
+ }
+ button{
+  outline: none !important;
+}
+input
+{
+  outline:none !important;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+  padding:0;
+}
+input, button, textarea, select{
+  outline: none;
+}
+.btn.focus, .btn:focus {
+  outline: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+body{
+  overflow: hidden;
+  font-family: 'Geomanist';
+  font-weight: 200;
+  font-size: 16px;
+  background: #fff3f0;
+}
+html{
+  overflow-x: hidden;
+}
+ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+img{
+  width: 100%;
+  height: auto;
+  display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+h2 {
+  font-family: 'Kaftan Serif';
+  font-weight: 400;
+  font-size: 42px;
+  color: #0a05f1;
+}
+h3{
+  font-family: 'Kaftan Serif';
+  font-weight: 400;
+  color: #000;
+  font-size: 40px;
+}
+h4{
+  font-family: 'Kaftan Serif';
+  font-weight: 400;
+  color: #000;
+  font-size: 24px;
+}
+h5 {
+  font-weight: 200;
+  font-size: 24px;
+  color: #000;
+  line-height: 1.3;
+}
+p {
+  font-weight: 200;
+  font-size: 24px;
+  color: #000;
+  line-height: 1.3;
+}
+.btn_style_1 {
+  background: transparent;
+  font-size: 26px;
+  color: #000;
+  font-family: 'Kaftan Serif';
+  font-weight: 400;
+  border: 1px solid #000;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 10px 50px;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.btn_style_1:hover{
+  background: #1F378D;
+  color: #FFF;
+  border-color: #1F378D;
+}
+.fixedHeader {
+  position: fixed;
+  background: #FFF;
+  z-index: 13;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+  width: 100%;
+}
+
+/****************************************************/
+/********   Start Header Logo Menu Css     **********/
+/****************************************************/
+.header_main_area {
+  background: #FFF;
+  padding-top: 40px;
+}
+.menu_area {
+  margin-left: 15px;
+}
+.logo_area a img {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: block;
+}
+.header_logo_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 20px 0 20px;
+}
+.menu_social_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.social_area ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.social_area ul li a {
+  background: #000;
+  color: #FFF;
+  width: 25px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 10px;
+  font-size: 16px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.social_area ul li a:hover{
+  background: #1F378D;
+  color: #FFF;
+  border-color: #1F378D;
+}
+/*Start Humber Icon Design Css*/
+.mobile-menu-icon {
+  position: relative;
+}
+.mobile-search-icon {
+  width: 18px;
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  z-index: 9999;
+  display: none;
+}
+.mobile-search-icon:after {
+  content: "";
+  position: absolute;
+  background: #000;
+  width: 2px;
+  height: 56px;
+  left: -20px;
+  top: -12px;
+}
+.mobile-search-icon img {
+  width: 18px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  right: 4px;
+}
+.all-p-humber {
+  width: 30px;
+  height: 18px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  z-index: 99;
+}
+.all-p-humber span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 40px;
+  background: #000;
+  border-radius: 0;
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+.all-p-humber span:nth-child(1) {
+  top: 0px;
+}
+.all-p-humber span:nth-child(2), .all-p-humber span:nth-child(3) {
+  top: 8px;
+}
+.all-p-humber span:nth-child(4) {
+  top: 16px;
+}
+.all-p-humber.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+.all-p-humber.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.all-p-humber.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.all-p-humber.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+/*End Humber Icon Design Css*/
+
+/*Start Mobile Menu Responsive*/
+.mu_full_menu_area{
+  position: relative;
+}
+.mu_accordion {
+  display: none;
+  position: absolute;
+  width: 100%;
+  background: #FFF;
+  top: 163px;
+  left: 0;
+  z-index: 999;
+}
+.mu_accordion .link a {
+  cursor: pointer;
+  display: block;
+  padding: 22px 0 22px 80px;
+  color: #0a05f1;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Kaftan Serif';
+  border-top: 1px solid #CCC;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.mu_accordion .link a:hover {
+  background: #0a05f1;
+  color: #FFFFFF;
+}
+.mu_accordion li:last-child .link { 
+ border-bottom: 1px solid #CCC;
+}
+.mu_accordion li i {
+  position: absolute;
+  top: 20px;
+  left: 43px;
+  font-size: 23px;
+  color: #A6ADB1;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.mu_accordion li i.fa-chevron-down {
+  right: 35px;
+  left: auto;
+  font-size: 16px;
+  top: 25px;
+  color: #000000;
+}
+.mu_accordion li.open i.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+/*submenu*/
+.mu_submenu {
+  display: none;
+  background: #FFF;
+  font-size: 14px;
+}
+.mu_submenu li {
+ border-bottom: 1px solid #E4E6EF; 
+}
+.mu_submenu a {
+  display: block;
+  text-decoration: none;
+  color: #05233B;
+  padding: 20px;
+  font-family: 'Kaftan Serif';
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 115px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.mu_submenu a:hover {
+  background: #FAFBFC;
+  color: #05233B;
+}
+.link a img {
+  width: auto;
+  height: 18px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.tablinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  font-family: 'Kaftan Serif';
+  font-weight: 400;
+  font-size: 20px;
+  color: #1F378D;
+  
+}
+.tablinks span{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.tablinks:hover{
+  color: #000;
+}
+/*End Mobile Menu Responsive*/
+
+/****************************************************/
+/********     End Header Logo Menu Css     **********/
+/****************************************************/
+/***************************************************/
+/********   Start Login Content area css  **********/
+/***************************************************/
+
+.login-content-area{
+  background: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  min-height: 60vh;
+}
+.login-content {
+  justify-content: right;
+}
+.login-content-area h1 {
+  font-size: 40px;
+  font-family: 'Kaftan Serif';
+  font-weight: 400;
+  color: #000;
+}
+.btn-login {
+  background: #0606f1;
+  font-size: 26px;
+  color: #fff;
+  font-family: 'Kaftan Serif';
+  font-weight: 400;
+  border: 1px solid #0606f1;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 10px 50px;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.form-group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-content-area a {
+  font-size: 20px;
+  text-decoration: underline;
+  color: black;
+  margin-left: 5px;
+  font-family: 'Geomanist';
+}
+.login-content-area a:hover{
+  color: #0606f1;
+  transition: 0.3s ease-in-out;
+}
+.form-control {
+  min-height: calc(1.5em + .75rem + 15px);
+  border-radius: 0px;
+  border: 2px solid #0606f1;
+  font-size: 15pt;
+}
+.btn-password-visible{
+  position: relative;
+  float: right;
+  margin-top: -46px;
+  background: transparent;
+  border: 0px solid;
+  font-size: 30px;
+}
+
+
+/****************************************************/
+/********   End login content area css     **********/
+/****************************************************/
+
+/***************************************************/
+/********   Start Banner Main Area Css    **********/
+/***************************************************/
+.banner_main_area {
+  background: #FFF;
+}
+.banner_content_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.left_banner_area {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 32%;
+  flex: 0 0 32%;
+}
+.right_banner_area {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 68%;
+  flex: 0 0 68%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.banner_img {
+  max-width: 740px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.banner_button_txt h3 {
+  color: #000;
+  font-size: 28px;
+  font-family: 'Geomanist';
+}
+.banner_button_txt h3 span.basic_txt{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 200;
+  display: inline-block;
+}
+.banner_button_txt h3 span.basic_txt_2{
+  font-family: 'Lora', serif !important;
+}
+.banner_button_txt span {
+  font-family: 'Kaftan Serif';
+  font-weight: 400;
+  color: #000;
+  font-size: 28px;
+}
+.shop_header_right_heading h3 span,.top_funnel_txt h3 span,.wie_ole_txt_panel h3 span,.left_uber_txt  h3 span {
+  font-family: 'Lora', serif !important;
+}
+.banner_button_txt a {
+  margin: 15px 0;
+}
+/***************************************************/
+/********    End Banner Main Area Css     **********/
+/***************************************************/
+
+/***************************************************/
+/********   Start Oile Describe Area Css  **********/
+/***************************************************/
+.oile_describe_main_area {
+  background: #FFF;
+}
+.oile_dsc_heading h2 {
+  color: #0a05f1;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 140px;
+}
+.oile_dsc_heading h2 span{
+  display: block;
+}
+.oile_items_main_area, .oile_panel_middle_area, .oile_bottom_main_area{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.oile_funnel_top_left {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  background: #fff3f0;
+  padding: 65px 0;
+}
+.oile_funnel_top_right {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  padding-left: 60px;
+}
+.top_funnel_left img {
+  height: 510px;
+  width: auto;
+  margin: auto;
+}
+.top_funnel_txt {
+  position: relative;
+  padding-top: 110px;
+}
+.top_funnel_txt::after, .oile_panel_txt::after, .bottom_right_txt::after {
+  content: "";
+  position: absolute;
+  width: 280px;
+  height: 300px;
+  top: -60px;
+  right: 50px;
+  background: url(../images/vectore.gif) no-repeat scroll 0 0 / cover;
+  background-size: cover;
+}
+.top_funnel_txt p, .oile_funnel_top_right p,
+.oile_panel_txt p, .oile_panel_left_area p, .bottom_right_txt p, .oile_bottom_right_content p {
+  font-size: 24px;
+  color: #000;
+  line-height: 1.3;
+}
+.top_funnel_txt p {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.oile_funnel_top_right p {
+  max-width: 450px;
+  width: 100%;
+}
+.oile_funnel_top_right a {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.oile_panel_left_area, .oile_bottom_left_content{
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+}
+.oile_panel_right_area {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  background: #fff3f0;
+  padding-top: 65px;
+  padding-bottom: 50px;
+}
+.panel_right_img img {
+  width: 250px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  height: auto;
+  margin: auto;
+}
+.oile_panel_txt p {
+  margin-top: 21px;
+  margin-bottom: 15px;
+}
+.oile_panel_left_area p {
+  max-width: 430px;
+  width: 100%;
+}
+.oile_panel_left_area a {
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+.oile_panel_txt {
+  position: relative;
+  padding-top: 115px;
+}
+.oile_panel_txt::after {
+  background: url(../images/vectore_2.gif) no-repeat scroll 0 0 / cover;
+  background-size: cover;
+  width: 300px;
+  right: 20px;
+  top: -50px;
+  height: 298px;
+}
+.oile_bottom_right_content {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  padding-left: 40px;
+}
+.bottom_left_img img {
+  width: 165px;
+  margin: auto;
+}
+.bottom_left_img {
+  padding-top: 95px;
+  padding-bottom: 130px;
+  background: #fff3f0;
+}
+.bottom_right_txt {
+  position: relative;
+  padding-top: 110px;
+}
+.bottom_right_txt p {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.oile_bottom_right_content p {
+  max-width: 440px;
+  width: 100%;
+}
+.oile_bottom_right_content a {
+  margin-top: 40px;
+}
+.bottom_right_txt::after {
+  background: url(../images/vectore_3.gif) no-repeat scroll 0 0 / cover;
+  background-size: cover;
+  width: 310px;
+  right: 70px;
+  top: -15px;
+  height: 280px;
+}
+/***************************************************/
+/********    End Oile Describe Area Css   **********/
+/***************************************************/
+
+
+/***************************************************/
+/********   Start Wie Ole Main Area Css   **********/
+/***************************************************/
+.wie_ole_main_area{
+  background: #FFF;
+}
+.wie_oile_heading h2{
+  text-align: center;
+}
+.wie_oile_heading h2 span{
+  display: block;
+}
+.wie_oile_heading {
+  margin-top: 160px;
+  margin-bottom: 140px;
+}
+.wie_ole_txt_panel h3 {
+  margin-bottom: 30px;
+}
+.wie_ole_txt_panel p {
+  font-size: 24px;
+  color: #000;
+  line-height: 1.3;
+}
+.wie_ole_txt_panel p a, .single_shop_text_content p a,.left_uber_txt p a {
+  color: #000;
+  -webkit-text-decoration: underline 2px #000;
+  text-decoration: underline 2px #000;
+  font-family: 'Kaftan Serif';
+  margin-left: 8px;
+}
+.wie_ole_txt_panel {
+  padding-bottom: 20px;
+}
+/***************************************************/
+/********    End Wie Ole Main Area Css    **********/
+/***************************************************/
+
+/*****************************************************/
+/********     Start Uber Main Area Css      **********/
+/*****************************************************/
+.uber_main_area {
+  background: #FFF;
+  margin-top: 275px;
+  padding-top: 35px;
+}
+.unber_content_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.left_uber_txt {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+}
+.left_uber_txt h3 span{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+}
+.right_uber_images {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+}
+.uber_images img {
+  width: 200px;
+  height: auto;
+  margin: auto;
+}
+.left_uber_txt p {
+  font-size: 24px;
+  color: #000;
+  line-height: 1.3;
+  max-width: 470px;
+  width: 100%;
+}
+.left_uber_txt p span {
+  color: #000;
+  -webkit-text-decoration: underline 2px #000;
+  text-decoration: underline 2px #000;
+  font-family: 'Kaftan Serif';
+  display: inline-block;
+  margin-left: 5px;
+}
+.left_uber_txt h3 {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+/*****************************************************/
+/********      End Uber Main Area Css       **********/
+/*****************************************************/
+
+/*****************************************************/
+/********      Start Toffe Main Area Css    **********/
+/*****************************************************/
+.toffe_main_area {
+  background: #FFF;
+  margin-bottom: 440px;
+}
+.toffe_heading_area {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.toffe_txt_area {
+  margin-top: 15px;
+}
+.toffe_main_area .owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 40px;
+}
+.toffe_main_area .owl-theme .owl-dots .owl-dot span {
+  width: 13px;
+  height: 13px;
+  margin: 5px 7px;
+  background: #666666;
+}
+.toffe_main_area .owl-theme .owl-dots .owl-dot.active span, .toffe_main_area .owl-theme .owl-dots .owl-dot:hover span {
+  background: #000000;
+}
+.toffe_bottom_content {
+  padding-top: 90px;
+}
+.toffe_bottom_content .wie_ole_txt_panel {
+  margin-bottom: 0;
+}
+/**************************************************/
+/********       End Toffe Main Area      **********/
+/**************************************************/
+
+/**************************************************/
+/********     Start Shop Page Css Css    **********/
+/**************************************************/
+.shop_header_left_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.shop_area_header {
+  background: #FFFFFF;
+  padding-top: 55px;
+}
+.shop_header_right-content {
+  position: relative;
+  z-index: 2;
+}
+.shop_header_left_slider {
+  max-width: 540px;
+  width: 100%;
+}
+.shop_header-right_review_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+.single_review_icon ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 8px;
+}
+.single_first_shop_header_button a {
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+  background: #000000;
+  font-family: 'Kaftan Serif';
+  padding: 10px 35px;
+  display: inline-block;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+.single_first_shop_header_button a:hover {
+ color: #000000;
+ background: #FFFFFF;
+}
+.single_second_shop_header_button a {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  background: #FFFFFF;
+  font-family: 'Kaftan Serif';
+  padding: 10px 35px;
+  display: inline-block;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  margin-top: 15px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+.single_second_shop_header_button a:hover {
+ color: #FFFFFF;
+ background: #000000;
+}
+.single_review_icon ul li a img {
+  width: 12px;
+  height: auto;
+  margin: 0 2px;
+}
+.shop_header_left_slider.owl-theme .owl-dots .owl-dot span {
+  width: 18px;
+  height: 18px;
+}
+.shop_header_left_slider.owl-theme .owl-dots .owl-dot.active span, .shop_header_left_slider.owl-theme .owl-dots .owl-dot:hover span {
+  background: #000000;
+}
+.shop_header_left_slider.owl-theme .owl-dots .owl-dot span {
+  background: #666666;
+}
+.shop_header_left_slider.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: -110px;
+}
+.shop_header_left_image img {
+  width: auto;
+  height: 90px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+.shop_header_left_single_slider img {
+  height: 445px;
+  width: auto !important;
+  margin: 0 auto;
+}
+.single_review_icon ul li a img {
+  width: 15px;
+  height: auto;
+}
+.single_review_icon ul li a img {
+  width: 15px;
+  height: auto;
+}
+.shop_header_right_content_paragraf p {
+  padding-top: 30px;
+}
+.shop_text_area {
+  background: #FFFFFF;
+  padding: 90px 0;
+}
+.single_shop_text_content {
+  padding-bottom: 50px;
+}
+.shop_header_right-content {
+  padding-top: 70px;
+}
+.single_shop_text_content h5 {
+  font-family: 'Kaftan Serif';
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.single_shop_text_content h5 span {
+  font-family: 'Lora', serif !important;
+}
+.single-product-content {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.single-product-content-image img {
+  height: 370px;
+  width: auto !important;
+  margin: 0 auto;
+  display: block;
+}
+.shop-product-area {
+  background: #FFFFFF;
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+.shop-product-heading-text p {
+  text-align: center;
+  padding-bottom: 55px;
+}
+.single-product-content-text p {
+  padding-top: 65px;
+  padding-bottom: 30px;
+  width: 188px;
+  margin: 0 auto;
+  display: block;
+}
+.single-product-content-image {
+  width: 190px;
+  margin: 0 auto;
+}
+.sinlge-product-kaufen button {
+  font-weight: 400;
+  font-family: 'Kaftan Serif';
+  background: #FFFFFF;
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 12px 50px;
+  font-size: 24px;
+  border-radius: 80px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  display: inline-block;
+}
+.sinlge-product-kaufen button:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+.more-product-details-image img {
+  height: 200px;
+  width: auto;
+  margin: 0 auto;
+}
+.more-product-details-text p {
+  font-size: 20px;
+  padding-top: 20px;
+  width: 100%;
+  text-align: left;
+}
+.more-product-details {
+  display: none;
+}
+
+  /*************************************************/
+  /********        End Shop Page Css      **********/
+  /*************************************************/
+
+  .contact-area {
+    background:white;
+  }
+  .contact-content {
+    margin: 0 auto;
+  }
+  .contact-content h1 {
+    font-family: 'Kaftan Serif';
+    font-weight: 400;
+    font-size: 50px;
+    color: #000000;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+  }
+  .contact-content p,.contact-content p a {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+  }
+  .contact-content p a {
+    border-bottom: 1px solid #000000;
+    line-height: 23px;
+    display: inline-block;
+  }
+  /*************************************************/
+  /********        Start Canvas Page Css    ********/
+  /*************************************************/
+  .handle-area {
+    background: #FFFFFF;
+    padding-top: 130px;
+    padding-bottom: 290px;
+  }
+  .handle-content {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .handle-content h1 {
+    font-family: 'Kaftan Serif';
+    font-weight: 400;
+    font-size: 50px;
+    color: #000000;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+  }
+  .handle-content p,.handle-content p a {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+  }
+  .handle-content p a {
+    border-bottom: 1px solid #000000;
+    line-height: 23px;
+    display: inline-block;
+  }
+
+  /*************************************************/
+  /********         End Canvas Page Css     ********/
+  /*************************************************/
+
+  /*************************************************/
+  /********     Start Footer Area Css     **********/
+  /*************************************************/
+  .footer_main_area{
+    background: #0606f1;
+  }
+  .footer_heading_area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 75px;
+  }
+  .left_footer_heading {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+  }
+  .right_footer_heading {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  .left_footer_heading ul li a {
+    color: #FFF;
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  .footer_right_txt p {
+    font-size: 24px;
+    color: #FFF;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  .footer_right_txt .submit_mail_area input {
+    border: 1px solid #FFF;
+    background: transparent;
+    border-radius: 6px;
+    padding: 20px 15px;
+    display: inline-block;
+    font-family: 'Geomanist';
+    font-weight: 200;
+    font-size: 24px;
+    color: #FFF;
+    max-width: 385px;
+    width: 100%;
+  }
+  .footer_right_txt .submit_mail_area input::-webkit-input-placeholder{
+    color: #FFF;
+  }
+  .footer_right_txt .submit_mail_area input::-moz-placeholder{
+    color: #FFF;
+  }
+  .footer_right_txt .submit_mail_area input:-ms-input-placeholder{
+    color: #FFF;
+  }
+  .footer_right_txt .submit_mail_area input::-ms-input-placeholder{
+    color: #FFF;
+  }
+  .footer_right_txt .submit_mail_area input::placeholder{
+    color: #FFF;
+  }
+  .submit_mail_area button {
+    background: none;
+    border: none;
+    color: #FFF;
+    font-size: 60px;
+  }
+  .submit_mail_area button img {
+    width: 30px;
+  }
+  .submit_mail_area form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .submit_mail_area button {
+    margin-left: 10px;
+  }
+  .footer_copyright_text p {
+    font-size: 24px;
+    font-weight: 200;
+    color: #FFF;
+    margin-top: 65px;
+    line-height: 1.2;
+  }
+  .footer_copyright_text p span{
+    display: block;
+  }
+  .footer_bottom_txt > p, .single_footer_btm_txt p,
+  .mit_footer_txt p{
+    font-weight: 200;
+    font-size: 24px;
+    color: #FFF;
+    line-height: 1.3;
+  }
+  .footer_bottom_txt > p{
+    margin: 30px 0;
+  }
+  .single_footer_btm_txt p {
+    margin-bottom: 40px;
+    max-width: 940px;
+    width: 100%;
+  }
+  .mit_footer_txt p {
+    margin-bottom: 65px;
+    max-width: 940px;
+    width: 100%;
+  }
+  /*************************************************/
+  /********      End Footer Area Css      **********/
+/*************************************************/

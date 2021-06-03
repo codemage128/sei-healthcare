@@ -1,0 +1,480 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media all and (max-width: 1199px) {
+	.logo_area a img {
+		max-width: 170px;
+	}
+	.header_logo_menu {
+		padding: 30px 0 30px;
+	}
+	.header_main_area {
+		padding-top: 0;
+	}
+	.mu_accordion {
+		top: 130px;
+	}
+	.left_banner_area {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 37%;
+		flex: 0 0 37%;
+	}
+	.right_banner_area {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 63%;
+		flex: 0 0 63%;
+	}
+	.bottom_right_txt::after {
+		width: 300px;
+		height: 275px;
+		top: 0;
+		right: -21px;
+	}
+}
+@media all and (max-width: 991px) {
+	.all-p-humber span {
+		height: 4px;
+		width: 40px;
+	}
+	.banner_content_area {
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-ms-grid-row-align: center;
+		align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.right_banner_area {
+		-webkit-box-ordinal-group: 0;
+		-ms-flex-order: -1;
+		order: -1;
+	}
+	h2 {
+		font-size: 34px;
+	}
+	.oile_items_main_area, .oile_panel_middle_area, .oile_bottom_main_area {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.top_funnel_txt::after, .oile_panel_txt::after, .bottom_right_txt::after {
+		top: -80px;
+		right: 270px;
+	}
+	.oile_panel_txt::after {
+		right: 165px;
+		top: -60px;
+		height: 275px;
+	}
+	.oile_panel_right_area {
+		-webkit-box-ordinal-group: 0;
+		-ms-flex-order: -1;
+		order: -1;
+		margin-bottom: 20px;
+	}
+	.bottom_right_txt::after {
+		top: -10px;
+		right: 240px;
+	}
+	h3 {
+		font-size: 32px;
+	}
+	.footer_heading_area {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		-ms-grid-row-align: flex-start;
+		align-items: flex-start;
+	}
+	.right_footer_heading {
+		margin-top: 35px;
+	}
+	.top_funnel_txt p, .oile_funnel_top_right p, .oile_panel_txt p, .oile_panel_left_area p, .bottom_right_txt p, .oile_bottom_right_content p {
+		font-size: 20px;
+	}
+	.wie_ole_txt_panel p {
+		font-size: 20px;
+	}
+	.left_uber_txt p {
+		font-size: 20px;
+	}
+	.left_footer_heading ul li a {
+		font-size: 20px;
+	}
+	.footer_right_txt p {
+		font-size: 20px;
+	}
+	.footer_copyright_text p {
+		font-size: 20px;
+	}
+	.footer_bottom_txt > p, .single_footer_btm_txt p, .mit_footer_txt p {
+		font-size: 20px;
+	}
+	.oile_funnel_top_right {
+		padding-left: 0;
+	}
+	.shop_header_left_content {
+		padding-bottom: 100px;
+	}
+	.oile_bottom_right_content {
+		padding-left: 0;
+	}
+	.banner_button_txt {
+		text-align: center;
+	}
+	.oile_panel_left_area p,.oile_bottom_right_content p,.oile_funnel_top_right p {
+		max-width: inherit;
+	}
+	.shop_header_left_slider.owl-theme .owl-nav.disabled + .owl-dots {
+		bottom: -80px;
+	}
+	.shop_header_right-content {
+		padding-top: 0;
+	}
+	.single-product-content {
+		padding-bottom: 50px;
+	}
+	.shop-product-area {
+		padding-bottom: 100px;
+	}
+	p,.single_shop_text_content h5 {
+		font-size: 20px;
+	}
+	.sinlge-product-kaufen button {
+		padding: 8px 40px;
+		font-size: 22px;
+	}
+	.single_second_shop_header_button a, .single_first_shop_header_button a {
+		font-size: 20px;
+	}
+	.single_shop_text_content h5 {
+		padding-bottom: 20px;
+	}
+	.shop-product-area {
+		padding-top: 30px;
+	}
+	.sinlge-product-kaufen {
+		margin: 0 auto;
+		width: 200px;
+	}
+
+}
+
+@media all and (max-width: 767px) {
+	.top_funnel_txt::after, .oile_panel_txt::after, .bottom_right_txt::after {
+		top: -20px;
+		right: 150px;
+		width: 250px;
+		height: 230px;
+	}
+	.oile_panel_txt::after {
+		right: 40px;
+		top: 0;
+		width: 250px;
+		height: 200px;
+		background-size: 100% 100%;
+	}
+	.bottom_right_txt::after {
+		top: 25px;
+		right: 140px;
+		width: 250px;
+		height: 200px;
+	}
+	.wie_oile_heading {
+		margin-top: 100px;
+		margin-bottom: 50px;
+	}
+	.logo_area a img {
+		max-width: 135px;
+	}
+	.social_area ul li a {
+		width: 25px;
+		height: 25px;
+		margin: 0 6px;
+		font-size: 15px;
+	}
+	.all-p-humber span {
+		height: 3px;
+		width: 30px;
+	}
+	.mu_accordion {
+		top: 114px;
+	}
+	.banner_button_txt h3 {
+		font-size: 24px;
+	}
+	.btn_style_1 {
+		font-size: 22px;
+		padding: 8px 35px;
+	}
+	h2 {
+		font-size: 26px;
+	}
+	.oile_panel_left_area a {
+		margin-top: 50px;
+	}
+	h3 {
+		font-size: 25px;
+	}
+	.unber_content_area {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.right_uber_images {
+		-webkit-box-ordinal-group: 0;
+		-ms-flex-order: -1;
+		order: -1;
+	}
+	.uber_images img {
+		width: 150px;
+	}
+	.left_uber_txt h3 {
+		padding-top: 50px;
+		padding-bottom: 15px;
+	}
+	.mu_accordion .link a {
+		padding: 22px 0 22px 40px;
+	}
+	.oile_dsc_heading h2,.wie_oile_heading {
+		margin-top: 50px;
+		margin-bottom: 40px;
+	}
+	.shop-product-area {
+		padding-top: 15px;
+	}
+	.single_shop_text_content {
+		padding-bottom: 35px;
+	}
+	.single-product-content-text p {
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+	.sinlge-product-kaufen button {
+		padding: 10px 45px;
+	}
+	.single_second_shop_header_button a {
+		padding: 10px 35px;
+	}
+	.shop_header_left_slider {
+		max-width: 415px;
+	}
+	.handle-area {
+		padding-top: 80px;
+		padding-bottom: 200px;
+	}
+
+
+
+}
+@media all and (max-width: 575px) {
+	.logo_area a img {
+		max-width: 110px;
+	}
+	.all-p-humber span:nth-child(4) {
+		top: 14px;
+	}
+	.all-p-humber span:nth-child(1) {
+		top: 2px;
+	}
+	.mu_accordion {
+		top: 104px;
+	}
+	.banner_img {
+		margin-bottom: 20px;
+	}
+	.banner_button_txt span {
+		font-size: 22px;
+	}
+	.banner_button_txt h3 {
+		font-size: 22px;
+	}
+	.oile_dsc_heading h2 span {
+		display: block;
+		line-height: 1.4;
+	}
+	.bottom_left_img {
+		padding-top: 50px;
+		padding-bottom: 70px;
+	}
+	.top_funnel_txt::after {
+		top: 0;
+		right: 30px;
+		width: 230px;
+		height: 200px;
+	}
+	.oile_panel_txt::after {
+		right: 0;
+		top: 5px;
+		width: 220px;
+		height: 185px;
+	}
+	.bottom_right_txt::after {
+		top: 5px;
+		right: 0;
+		width: 230px;
+		height: 185px;
+	}
+	h3 {
+		font-size: 22px;
+	}
+	.mu_accordion .link a {
+		padding: 15px 0 15px 20px;
+	}
+	.shop-product-area {
+		padding-bottom: 50px;
+	}
+	.shop_header_right_button {
+		padding-top: 30px;
+	}
+	.shop_header_left_slider {
+		max-width: 332px;
+	}
+	.handle-content h1 {
+		font-size: 38px;
+		padding-bottom: 20px;
+	}
+	.handle-content p, .handle-content p a {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.handle-area {
+		padding-top: 70px;
+		padding-bottom: 150px;
+	}
+}
+
+
+@media all and (max-width: 450px) {
+	.tablinks span {
+		font-size: 18px;
+	}
+	.logo_area a img {
+		max-width: 88px;
+	}
+	.social_area ul li a {
+		margin: 0 3px;
+	}
+	.mu_accordion {
+		top: 95px;
+	}
+	.btn_style_1 {
+		font-size: 20px;
+		padding: 6px 30px;
+	}
+	h2 {
+		font-size: 19px;
+	}
+	.top_funnel_txt::after {
+		top: 20px;
+		right: 30px;
+		width: 175px;
+		height: 160px;
+	}
+	.oile_funnel_top_right {
+		padding-left: 0;
+	}
+	.top_funnel_txt p, .oile_funnel_top_right p, .oile_panel_txt p, .oile_panel_left_area p, .bottom_right_txt p, .oile_bottom_right_content p {
+		font-size: 17px;
+	}
+	.bottom_right_txt::after {
+		top: 53px;
+		right: 10px;
+		width: 170px;
+		height: 125px;
+	}
+	.wie_oile_heading {
+		margin-top: 50px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+	.wie_ole_txt_panel p {
+		font-size: 17px;
+	}
+	.uber_images img {
+		width: 90px;
+	}
+	.left_uber_txt p {
+		font-size: 17px;
+	}
+	.left_footer_heading ul li a {
+		font-size: 17px;
+	}
+	.footer_right_txt p {
+		font-size: 17px;
+	}
+	.footer_right_txt .submit_mail_area input {
+		padding: 10px 15px;
+		font-size: 18px;
+	}
+	.submit_mail_area button img {
+		width: 20px;
+	}
+	.footer_copyright_text p {
+		font-size: 17px;
+	}
+	.footer_bottom_txt > p, .single_footer_btm_txt p, .mit_footer_txt p {
+		font-size: 17px;
+	}
+	.footer_bottom_txt > p {
+		margin: 20px 0;
+	}
+	.toffe_main_area {
+		margin-bottom: 240px;
+	}
+	.oile_panel_txt::after {
+		right: 0;
+		top: 25px;
+		width: 180px;
+		height: 160px;
+	}
+	.bottom_right_txt::after {
+		right: 0;
+		top: 25px;
+		width: 180px;
+		height: 160px;
+	}
+	.mu_accordion .link a {
+		padding: 15px 0 15px 15px;
+		font-size: 18px;
+	}
+	p, .single_shop_text_content h5 {
+		font-size: 17px;
+	}
+	.sinlge-product-kaufen button {
+		padding: 8px 38px;
+		font-size: 17px;
+	}
+	.single_second_shop_header_button a, .single_first_shop_header_button a {
+		font-size: 17px;
+	}
+	.shop_header_left_single_slider img {
+		height: 340px;
+	}
+	.shop_header_left_slider {
+		max-width: 228px;
+	}
+	.handle-area {
+		padding-top: 40px;
+	}
+	.handle-content p, .handle-content p a {
+		font-size: 17px;
+		line-height: 26px;
+	}
+	.handle-content p a {
+		line-height: 20px;
+	}
+
+}
