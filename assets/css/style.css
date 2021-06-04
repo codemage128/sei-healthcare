@@ -126,9 +126,9 @@ p {
   transition: 0.3s ease-in-out;
 }
 .btn_style_1:hover{
-  background: #1F378D;
+  background: #0a0cf4;
   color: #FFF;
-  border-color: #1F378D;
+  border-color: #0a0cf4;
 }
 .fixedHeader {
   position: fixed;
