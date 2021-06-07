@@ -132,7 +132,7 @@ p {
 }
 .fixedHeader {
   position: fixed;
-  background: #fff3f0 !important;
+  background: #FFF !important;
   z-index: 13;
   box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
   width: 100%;
@@ -302,10 +302,11 @@ p {
   position: absolute;
   width: 25%;
   height: 100vh;
-  background: #fff3f0;
+  background: #fff;
   top: 109px;
   right: 0;
   z-index: 999;
+  box-shadow: -1px -1px 19px #757575;
 }
 .mu_accordion .link a {
   cursor: pointer;
@@ -579,6 +580,8 @@ p {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
+
+
 .oile_funnel_top_left {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 50%;
