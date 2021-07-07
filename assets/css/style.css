@@ -300,10 +300,21 @@ p {
 .mu_accordion {
   display: none;
   position: absolute;
-  width: 25%;
-  height: 100vh;
+  width: 30%;
+  /*height: 100vh;*/
   background: #fff;
-  top: 109px;
+  top: 0px;
+  right: 0;
+  z-index: 999;
+  box-shadow: -1px -1px 19px #757575;
+}
+.open-cart-menu{
+  display: none;
+  position: absolute;
+  width: 45%;
+  /*height: 100vh;*/
+  background: #fff;
+  top: 0px;
   right: 0;
   z-index: 999;
   box-shadow: -1px -1px 19px #757575;
@@ -311,19 +322,19 @@ p {
 .mu_accordion .link a {
   cursor: pointer;
   display: block;
-  padding: 22px 0 22px 80px;
-  color: #0a05f1;
+  padding: 22px 0 22px 40px;
+  color: #231f20;
   font-size: 20px;
   font-weight: 400;
   font-family: 'Kaftan Serif';
-  border-top: 1px solid #CCC;
+  /*border-top: 1px solid #CCC;*/
   position: relative;
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .mu_accordion .link a:hover {
-  background: #0a05f1;
+  background: #231f20;
   color: #FFFFFF;
 }
 .mu_accordion li:last-child .link { 
@@ -1260,6 +1271,85 @@ p {
     text-decoration: underline;
     color: black;
   }
+  .menu-header{
+    background: #929292;
+  }
+
+
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+#increase{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: 0px;
+}
+#decrease{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: 0px;
+}
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  /*background: #eee;*/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+
+form #decrease {
+  margin-right: -4px;
+  border-radius: 8px 0 0 8px;
+}
+
+form #increase {
+  margin-left: -4px;
+  border-radius: 0 8px 8px 0;
+}
+
+/* form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+} */
+
+input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+  width: 50px;
+  height: 50px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cart-image{
+  background: #dedede;
+  border-radius: 15px;
+}
   /*************************************************/
   /********      End Footer Area Css      **********/
 /*************************************************/

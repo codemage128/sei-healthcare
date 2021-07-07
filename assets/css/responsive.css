@@ -16,7 +16,7 @@
 		padding-top: 0;
 	}
 	.mu_accordion {
-		top: 130px;
+		top: 0px;
 	}
 	.left_banner_area {
 		-webkit-box-flex: 0;
@@ -208,7 +208,8 @@
 		width: 30px;
 	}
 	.mu_accordion {
-		top: 114px;
+		top: 0px;
+		width: 50%;
 	}
 	.banner_button_txt h3 {
 		font-size: 24px;
@@ -289,7 +290,8 @@
 		top: 2px;
 	}
 	.mu_accordion {
-		top: 104px;
+		top: 0px;
+		width: 50%;
 	}
 	.banner_img {
 		margin-bottom: 20px;
@@ -367,7 +369,8 @@
 		margin: 0 3px;
 	}
 	.mu_accordion {
-		top: 95px;
+		top: 0px;
+		width: 80%;
 	}
 	.btn_style_1 {
 		font-size: 20px;

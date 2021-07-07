@@ -11,7 +11,13 @@ $('.mobile-menu-icon').click(function(){
   $('.mobile_main_menu_content ul').slideToggle();
 });
 //==== End Mobile menu js 
-
+$('.close-menu').click(function(){
+    $('.mobile_main_menu_content ul').slideToggle();
+    $('.all-p-humber').toggleClass('open');
+});
+$('.add-cart').click(function(){
+    $('.open-cart-menu').slideToggle();
+})
 // nase_main_area  carousel area
 $('.toffe_content_area').owlCarousel({
   items:2,
