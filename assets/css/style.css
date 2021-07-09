@@ -312,7 +312,7 @@ p {
   display: none;
   position: absolute;
   width: 45%;
-  /*height: 100vh;*/
+  /*height: 700px;*/
   background: #fff;
   top: 0px;
   right: 0;
@@ -1350,6 +1350,27 @@ input[type=number]::-webkit-outer-spin-button {
   background: #dedede;
   border-radius: 15px;
 }
-  /*************************************************/
+.close-menu{
+  cursor: pointer
+}
+.close-cart{
+  cursor: pointer
+}
+
+.shop-list{
+  min-height: 300px;
+}
+
+.check-out-button{
+  height: 49px;
+  width: 80%;
+  border-radius: 57px;
+}
+.check-out-text{
+  font-size: 21px;
+  text-align: center;
+  font-weight: bold;
+}
+/*************************************************/
   /********      End Footer Area Css      **********/
 /*************************************************/

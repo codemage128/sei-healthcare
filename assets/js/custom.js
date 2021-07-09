@@ -15,6 +15,11 @@ $('.close-menu').click(function(){
     $('.mobile_main_menu_content ul').slideToggle();
     $('.all-p-humber').toggleClass('open');
 });
+
+$('.close-cart').click(function(){
+    $('.open-cart-menu').slideToggle();
+    // $('.mobile_main_menu_content ul').slideToggle();
+});
 $('.add-cart').click(function(){
     $('.open-cart-menu').slideToggle();
 })
@@ -53,15 +58,15 @@ $('.shop_header_left_slider').owlCarousel({
 // Show Details Js
 
 $('.sinlge-product-kaufen button.one').click(function(){
-    $('.more-product-details.one').slideToggle();
+    // $('.more-product-details.one').slideToggle();
 });
 
 $('.sinlge-product-kaufen button.two').click(function(){
-    $('.more-product-details.two').slideToggle();
+    // $('.more-product-details.two').slideToggle();
 });
 
 $('.sinlge-product-kaufen button.three').click(function(){
-    $('.more-product-details.three').slideToggle();
+    // $('.more-product-details.three').slideToggle();
 });
 
 

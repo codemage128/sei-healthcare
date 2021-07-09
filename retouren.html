@@ -15,7 +15,7 @@
     <!-- link shortcut icon -->
     <link rel="shortcut icon" href="assets/images/favicon.png" />
     <!-- mailchimp -->
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />
+<!--    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />-->
     <!-- CSS File -->
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -49,8 +49,7 @@
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/botanical_affairs/?hl=en"><i
-                                                class="fab fa-instagram"></i></a>
+                                        <a href="https://www.instagram.com/botanical_affairs/?hl=en"><i class="fab fa-instagram"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -70,32 +69,97 @@
                                 <!-- Start Mobile Dropdown Menu -->
                                 <div class="mobile_main_menu_content">
                                     <ul id="mu_accordion" class="mu_accordion">
-                                        <li>
-                                            <div class="link">
-                                                <a class="tablinks" href="index.html">
-                                                    Home
-                                                </a>
-                                            </div>
+                                        <li class="p-3 menu-header d-flex justify-content-between">
+                                            <a class="tablinks text-white" href="index.html">
+                                                Menu
+                                            </a>
+                                            <a class="close-menu text-white">X</a>
                                         </li>
                                         <li>
                                             <div class="link">
-                                                <a class="tablinks" href="shop.html"> <span>Ö</span>l </a>
+                                                <a class="tablinks" href="shop.html"> Produkte</a>
                                             </div>
                                         </li>
 
                                         <li>
                                             <div class="link">
                                                 <a class="tablinks" href="sitzbad.html">
-                                                    Sitzbad
+                                                    Funktion
                                                 </a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="link">
                                                 <a class="tablinks" href="gleitgel.html">
-                                                    Gleitgel
+                                                    Uber uns
                                                 </a>
                                             </div>
+                                        </li>
+                                        <li>
+                                            <div class="link">
+                                                <a class="tablinks" href="gleitgel.html">
+                                                    Inhaltsstoffe
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="link">
+                                                <a class="tablinks" href="gleitgel.html">
+                                                    Philosophie
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="link">
+                                                <a class="tablinks" href="gleitgel.html">
+                                                    FAQ
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="link">
+                                                <a class="tablinks" href="gleitgel.html">
+                                                    Kontakt
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="open-cart-menu">
+                                    <ul>
+                                        <li class="p-3 menu-header d-flex justify-content-between">
+                                            <a class="tablinks text-white" href="index.html">
+                                                Warenkorb
+                                            </a>
+                                            <a class="text-white close-cart">X</a>
+                                        </li>
+                                        <li>
+                                            <div class="row m-3">
+                                                <div class="col-md-3 p-4 d-flex justify-content-center cart-image">
+                                                    <a href="#"><img src="assets/images/atwork.png" alt="Images" style="width:40px"/></a>
+                                                </div>
+                                                <div class="col-md-4 p-4 d-flex flex-column flex-wrap justify-content-between">
+                                                    <h4 class="mb-1">Sitzbad</h4>
+                                                    <h4 class="mb-1">500g</h4>
+                                                    <div class="d-flex">
+                                                        <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                                                        <input type="number" id="number" value="0" />
+                                                        <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-5 p-4 d-flex flex-column align-items-end justify-content-between">
+                                                    <h4>28,00 €</h4>
+                                                    <p style="font-size: 20px;">5,60 €/pro 100g</p>
+                                                    <a href="#"><h6>entfernen</h6></a>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                        </li>
+                                        <li class="shop-list"></li>
+                                        <li class="p-3 menu-header d-flex flex-column align-items-center">
+                                            <p class="check-out-text mb-2">Sie qualifizieren sich für den kostenlosen Versand</p>
+                                            <button class="btn btn-primary m-3 check-out-button">Check Out</button>
+                                            <p class="check-out-text mb-2">Versand & Steuern bei Check Out berechnet</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -107,8 +171,7 @@
                 </div>
             </div>
         </div>
-    </header>
-    <!--End Header Area-->
+    </header><!--End Header Area-->
     <!-- Start Handle area -->
     <section class="contact-area pb-5">
         <div class="container">
