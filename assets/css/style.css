@@ -325,8 +325,8 @@ p {
   padding: 22px 0 22px 40px;
   color: #231f20;
   font-size: 20px;
-  font-weight: 400;
-  font-family: 'Kaftan Serif';
+  font-weight: 600;
+  /*font-family: 'Kaftan Serif';*/
   /*border-top: 1px solid #CCC;*/
   position: relative;
   -webkit-transition: all 0.4s ease;
@@ -400,7 +400,7 @@ p {
   display: flex;
   -ms-flex-line-pack: center;
   align-content: center;
-  font-family: 'Kaftan Serif';
+  /*font-family: 'Kaftan Serif';*/
   font-weight: 400;
   font-size: 20px;
   color: #1F378D;
@@ -1046,7 +1046,7 @@ p {
   width: 190px;
   margin: 0 auto;
 }
-.sinlge-product-kaufen button {
+.sinlge-product-kaufen a {
   font-weight: 400;
   font-family: 'Kaftan Serif';
   background: #FFFFFF;
@@ -1060,7 +1060,7 @@ p {
   transition: .3s;
   display: inline-block;
 }
-.sinlge-product-kaufen button:hover {
+.sinlge-product-kaufen a:hover {
   background: #000000;
   color: #FFFFFF;
 }
@@ -1283,12 +1283,12 @@ form {
   text-align: center;
   padding-top: 50px;
 }
-#increase{
+.increase{
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border-left: 0px;
 }
-#decrease{
+.decrease{
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-right: 0px;
@@ -1330,7 +1330,7 @@ form #increase {
   padding: 0px;
 } */
 
-input#number {
+input.number {
   text-align: center;
   border: none;
   border-top: 1px solid #ddd;
@@ -1371,6 +1371,12 @@ input[type=number]::-webkit-outer-spin-button {
   text-align: center;
   font-weight: bold;
 }
+.product {
+  display:none;
+}
+
+
+
 /*************************************************/
   /********      End Footer Area Css      **********/
 /*************************************************/

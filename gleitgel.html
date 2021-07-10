@@ -91,7 +91,7 @@
                                     <li>
                                         <div class="link">
                                             <a class="tablinks" href="gleitgel.html">
-                                                Uber uns
+                                                Über uns
                                             </a>
                                         </div>
                                     </li>
@@ -133,7 +133,62 @@
                                         </a>
                                         <a class="text-white close-cart">X</a>
                                     </li>
-                                    <li>
+
+                                    <li class="product gle">
+                                        <div class="row m-3">
+                                            <div class="col-md-3 p-4 d-flex justify-content-center cart-image">
+                                                <a href="#"><img src="assets/images/atwork_3.png" alt="Images"
+                                                                 style="width:40px"/></a>
+                                            </div>
+                                            <div class="col-md-4 p-4 d-flex flex-column flex-wrap justify-content-between">
+                                                <h4 class="mb-1">Gleitgel</h4>
+                                                <h4 class="mb-1">100ML</h4>
+                                                <div class="d-flex">
+                                                    <div class="value-button decrease" data-id="gel_number" onclick="decreaseValue()"
+                                                         value="Decrease Value">-
+                                                    </div>
+                                                    <input type="number" class="number" id="gel_number" value="1"/>
+                                                    <div class="value-button increase" data-id="gel_number" onclick="increaseValue()"
+                                                         value="Increase Value">+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5 p-4 d-flex flex-column align-items-end justify-content-between">
+                                                <h4>€81.67</h4>
+                                                <p style="font-size: 20px;">100ML</p>
+                                                <a href="#"><h6>entfernen</h6></a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                    </li>
+                                    <li class="product">
+                                        <div class="row m-3">
+                                            <div class="col-md-3 p-4 d-flex justify-content-center cart-image">
+                                                <a href="#"><img src="assets/images/atwork.png" alt="Images"
+                                                                 style="width:40px"/></a>
+                                            </div>
+                                            <div class="col-md-4 p-4 d-flex flex-column flex-wrap justify-content-between">
+                                                <h4 class="mb-1">Sitzbad</h4>
+                                                <h4 class="mb-1">500g</h4>
+                                                <div class="d-flex">
+                                                    <div class="value-button" id="decrease" onclick="decreaseValue()"
+                                                         value="Decrease Value">-
+                                                    </div>
+                                                    <input type="number" id="number" value="0"/>
+                                                    <div class="value-button" id="increase" onclick="increaseValue()"
+                                                         value="Increase Value">+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5 p-4 d-flex flex-column align-items-end justify-content-between">
+                                                <h4>28,00 €</h4>
+                                                <p style="font-size: 20px;">5,60 €/pro 100g</p>
+                                                <a href="#"><h6>entfernen</h6></a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                    </li>
+                                    <li class="product">
                                         <div class="row m-3">
                                             <div class="col-md-3 p-4 d-flex justify-content-center cart-image">
                                                 <a href="#"><img src="assets/images/atwork.png" alt="Images"
@@ -161,6 +216,7 @@
                                         <hr>
                                     </li>
                                     <li class="shop-list"></li>
+<!--                                    <li class="shop-list"></li>-->
                                     <li class="p-3 menu-header d-flex flex-column align-items-center">
                                         <p class="check-out-text mb-2">Sie qualifizieren sich für den kostenlosen
                                             Versand</p>
@@ -279,7 +335,7 @@
 
                         <!-- single second shop header button -->
                         <div class="single_second_shop_header_button">
-                            <a href="javascript:void(0)" class="add-cart">In den Warenkorb</a>
+                            <a href="javascript:void(0)" class="add-cart" data-name="gle">In den Warenkorb</a>
                         </div>
                         <!-- single second shop header button -->
                     </div>
@@ -388,7 +444,7 @@
                                     </div>
                                 </div>
                                 <div class="sinlge-product-kaufen">
-                                    <button class="one add-cart">Kaufen</button>
+                                    <a href="gleitgel.html">Kaufen</a>
                                 </div>
                             </div>
                         </div>
@@ -420,7 +476,7 @@
                                     </div>
                                 </div>
                                 <div class="sinlge-product-kaufen">
-                                    <button class="two add-cart">Kaufen</button>
+                                    <a href="shop.html">Kaufen</a>
                                 </div>
                             </div>
                         </div>
@@ -452,7 +508,7 @@
                                     </div>
                                 </div>
                                 <div class="sinlge-product-kaufen">
-                                    <button class="three add-cart">Kaufen</button>
+                                    <a href="sitzbad.html">Kaufen</a>
                                 </div>
                             </div>
                         </div>
