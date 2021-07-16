@@ -1,543 +1,623 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Botanical Affairs | Sitzbad</title>
-        <!--Required meta tag-->
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <!--include fonts link  -->
-        <link rel="stylesheet" href="assets/fonts/fonts.css" />
-        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap" rel="stylesheet"> 
-        <!-- link shortcut icon -->
-        <link rel="shortcut icon" href="assets/images/favicon.png" />
-        <!-- mailchimp -->
-<!--        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />-->
-        <!-- CSS File -->
-        <link rel="stylesheet" href="assets/css/normalize.css" />
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
-        <!-- owl-carousel css  -->
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
-        <!-- main css files -->
-        <link rel="stylesheet" href="assets/css/style.css" />
-        <!-- Responsive css -->
-        <link rel="stylesheet" href="assets/css/responsive.css" />
-    </head>
+<head>
+    <title>Botanical Affairs | Sitzbad</title>
+    <!--Required meta tag-->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!--include fonts link  -->
+    <link rel="stylesheet" href="assets/fonts/fonts.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap"
+          rel="stylesheet">
+    <!-- link shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png"/>
+    <!-- mailchimp -->
+    <!--        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />-->
+    <!-- CSS File -->
+    <link rel="stylesheet" href="assets/css/normalize.css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css"/>
+    <!-- owl-carousel css  -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css"/>
+    <!-- main css files -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css"/>
+    <style>
+        #essential_work, #cbd_extract, #philosophy {
+            display: none;
+        }
+    </style>
+</head>
 
-    <body>
-        <!--Start Header Area-->
-        <header class="header_main_area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="header_logo_menu">
-                            <div class="logo_area">
-                                <a href="index.html"><img src="assets/images/logo.png" alt="" /></a>
-                            </div>
-                            <div class="menu_social_area">
-                                <div class="social_area">
-                                    <ul>
-                                        <li>
-                                            <a href="mailto:hemma.seifried@gmx.de"><i class="far fa-envelope"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.instagram.com/botanical_affairs/?hl=en"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="menu_area">
-                                    <!-- start mobile menu icon -->
-                                    <div class="mobile-menu-icon">
-                                        <div class="all-p-humber">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                    </div>
-                                    <!-- end mobile menu icon -->
-                                    <!-- mobile menu content -->
-                                    <!-- Start Mobile Dropdown Menu -->
-                                    <div class="mobile_main_menu_content">
-                                        <ul id="mu_accordion" class="mu_accordion">
-                                            <li class="p-3 menu-header d-flex justify-content-between">
-                                                <a class="tablinks text-white" href="index.html">
-                                                    Menu
-                                                </a>
-                                                <a class="close-menu text-white">X</a>
-                                            </li>
-                                            <li>
-                                                <div class="link">
-                                                    <a class="tablinks" href="index.html#product"> Produkte</a>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="link">
-                                                    <a class="tablinks" href="index.html#wie_section">
-                                                        Funktion
-                                                    </a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="link">
-                                                    <a class="tablinks" href="index.html#uber_section">
-                                                        Über uns
-                                                    </a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="link">
-                                                    <a class="tablinks" href="index.html#gle_section">
-                                                        Inhaltsstoffe
-                                                    </a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="link">
-                                                    <a class="tablinks" href="index.html#philosophie">
-                                                        Philosophie
-                                                    </a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="link">
-                                                    <a class="tablinks" href="faq.html">
-                                                        FAQ
-                                                    </a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="link">
-                                                    <a class="tablinks" href="kontact.html">
-                                                        Kontakt
-                                                    </a>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="open-cart-menu">
-                                        <ul>
-                                            <li class="p-3 menu-header d-flex justify-content-between">
-                                                <a class="tablinks text-white" href="index.html">
-                                                    Warenkorb
-                                                </a>
-                                                <a class="text-white close-cart">X</a>
-                                            </li>
-                                            <li class="product gle">
-                                                <div class="row m-3">
-                                                    <div class="col-md-3 p-4 d-flex justify-content-center cart-image">
-                                                        <a href="#"><img src="assets/images/atwork_3.png" alt="Images"
-                                                                         style="width:40px"/></a>
-                                                    </div>
-                                                    <div class="col-md-4 p-4 d-flex flex-column flex-wrap justify-content-between">
-                                                        <h4 class="mb-1">Gleitgel</h4>
-                                                        <h4 class="mb-1">100ML</h4>
-                                                        <div class="d-flex">
-                                                            <div class="value-button" id="decrease" onclick="decreaseValue()"
-                                                                 value="Decrease Value">-
-                                                            </div>
-                                                            <input type="number" id="number" value="1"/>
-                                                            <div class="value-button" id="increase" onclick="increaseValue()"
-                                                                 value="Increase Value">+
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-5 p-4 d-flex flex-column align-items-end justify-content-between">
-                                                        <h4>€81.67</h4>
-                                                        <p style="font-size: 20px;">100ML</p>
-                                                        <a href="#"><h6>entfernen</h6></a>
-                                                    </div>
-                                                </div>
-                                                <hr>
-                                            </li>
-                                            <li class="product oil">
-                                                <div class="row m-3">
-                                                    <div class="col-md-3 p-4 d-flex justify-content-center cart-image">
-                                                        <a href="#"><img src="assets/images/atwork.png" alt="Images"
-                                                                         style="width:40px"/></a>
-                                                    </div>
-                                                    <div class="col-md-4 p-4 d-flex flex-column flex-wrap justify-content-between">
-                                                        <h4 class="mb-1">Öl</h4>
-                                                        <h4 class="mb-1">100ML</h4>
-                                                        <div class="d-flex">
-                                                            <div class="value-button" id="decrease" onclick="decreaseValue()"
-                                                                 value="Decrease Value">-
-                                                            </div>
-                                                            <input type="number" id="number" value="1"/>
-                                                            <div class="value-button" id="increase" onclick="increaseValue()"
-                                                                 value="Increase Value">+
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-5 p-4 d-flex flex-column align-items-end justify-content-between">
-                                                        <h4>€81.67</h4>
-                                                        <p style="font-size: 20px;">100ML</p>
-                                                        <a href="#"><h6>entfernen</h6></a>
-                                                    </div>
-                                                </div>
-                                                <hr>
-                                            </li>
-                                            <li class="product sit">
-                                                <div class="row m-3">
-                                                    <div class="col-md-3 p-4 d-flex justify-content-center cart-image">
-                                                        <a href="#"><img src="assets/images/atwork_2.png" alt="Images"
-                                                                         style="width:40px"/></a>
-                                                    </div>
-                                                    <div class="col-md-4 p-4 d-flex flex-column flex-wrap justify-content-between">
-                                                        <h4 class="mb-1">Sitzbad</h4>
-                                                        <h4 class="mb-1">1L</h4>
-                                                        <div class="d-flex">
-                                                            <div class="value-button decrease" data-id="sit_number" onclick="decreaseValue()"
-                                                                 value="Decrease Value">-
-                                                            </div>
-                                                            <input type="number" class="number" id="sit_number" value="1"/>
-                                                            <div class="value-button increase" data-id="sit_number" onclick="increaseValue()"
-                                                                 value="Increase Value">+
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-5 p-4 d-flex flex-column align-items-end justify-content-between">
-                                                        <h4>€81.67</h4>
-                                                        <p style="font-size: 20px;">1L</p>
-                                                        <a href="#"><h6>entfernen</h6></a>
-                                                    </div>
-                                                </div>
-                                                <hr>
-                                            </li>
-                                            <li class="shop-list"></li>
-                                            <li class="p-3 menu-header d-flex flex-column align-items-center">
-                                                <p class="check-out-text mb-2">Sie qualifizieren sich für den kostenlosen Versand</p>
-                                                <button class="btn btn-primary m-3 check-out-button">Check Out</button>
-                                                <p class="check-out-text mb-2">Versand & Steuern bei Check Out berechnet</p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- End Mobile Dropdown Menu -->
-                                    <!-- mobile menu content -->
-                                </div>
-                            </div>
-                        </div>
+<body>
+<!--Start Header Area-->
+<header class="header_main_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="header_logo_menu">
+                    <div class="logo_area">
+                        <a href="index.html"><img src="assets/images/logo.png" alt=""/></a>
                     </div>
-                </div>
-            </div>
-        </header><!--End Header Area-->
-
-        <!-- Start Shop Area header -->
-        <section class="shop_area_header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="shop_header_left_content">
-                            <div class="shop_header_left_image">
-                                <a href="#"><img src="assets/images/atwork_2.png" alt="Images" /></a>
-                                <a href="#"><img src="assets/images/atwork_2.png" alt="Images" /></a>
-                                <a href="#"><img src="assets/images/atwork_2.png" alt="Images" /></a>
-                            </div>
-
-                            <div class="shop_header_left_slider owl-carousel owl-theme">
-                                 <!-- single shop header slider -->
-                                <div class="shop_header_left_single_slider">
-                                    <img src="assets/images/atwork_2.png" alt="" />
-                                </div>
-                                <!-- single shop header slider -->
-                                
-                                <!-- single shop header slider -->
-                                <div class="shop_header_left_single_slider">
-                                    <img src="assets/images/atwork_2.png" alt="" />
-                                </div>
-                                <!-- single shop header slider -->
-
-                                <!-- single shop header slider -->
-                                <div class="shop_header_left_single_slider">
-                                    <img src="assets/images/atwork_2.png" alt="" />
-                                </div>
-                                <!-- single shop header slider -->
-                            </div>
+                    <div class="menu_social_area">
+                        <div class="social_area">
+                            <ul>
+                                <li>
+                                    <a href="mailto:hemma.seifried@gmx.de"><i class="far fa-envelope"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/botanical_affairs/?hl=en"><i
+                                            class="fab fa-instagram"></i></a>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="shop_header_right-content">
-                            <div class="shop_header_right_heading">
-                                <h3>Sitzbad</h3>
+
+                        <div class="menu_area">
+                            <!-- start mobile menu icon -->
+                            <div class="mobile-menu-icon">
+                                <div class="all-p-humber">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
                             </div>
-
-                            <div class="shop_header-right_review_content">
-                                <!-- single shop header review -->
-                                <div class="single_shop_header_review_content">
-                                    <p>Größe</p>
-                                </div>
-                                <!-- single shop header review -->
-
-                                <!-- single shop header review -->
-                                <div class="single_shop_header_review_content">
-                                    <p>€81.67</p>
-                                    <p>1L</p>
-                                    <p>Inkl. MwSt.</p>
-                                </div>
-                                <!-- single shop header review -->
-
-                                <!-- single shop header review -->
-                                <div class="single_shop_header_review_content">
-                                    <p>Reviews</p>
-                                    <div class="single_review_icon">
-                                        <ul>
-                                            <li>
-                                                <a href="#"><img src="assets/images/review.png" alt="Images" /></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><img src="assets/images/review.png" alt="Images" /></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><img src="assets/images/review.png" alt="Images" /></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><img src="assets/images/review.png" alt="Images" /></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><img src="assets/images/review.png" alt="Images" /></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- single shop header review -->
-                            </div>
-
-                            <div class="shop_header_right_button">
-                                <!-- single first shop header button -->
-                                <div class="single_first_shop_header_button">
-                                    <a href="#">500g</a>
-                                </div>
-                                <!-- single first shop header button -->
-
-                                <!-- single second shop header button -->
-                                <div class="single_second_shop_header_button">
-                                    <a href="javascript:void(0)" class="add-cart" data-name="sit">In den Warenkorb</a>
-                                </div>
-                                <!-- single second shop header button -->
-                            </div>
-
-                            <div class="shop_header_right_content_paragraf">
-                                <p>
-                                   1 mal täglich angewendet ist das Sitzbad eine potente Helfer und die perfekte Ergänzung zum Öl. Das im Sitzbad enthal- tene Meersalz mit seinen Makro-Mikro- elemente und Mineralien in Kombination mit den potenten Ölen hilft Entzünd- ungen zu regulieren und Giftstoffe schneller auszuleiten. 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Shop Area Header -->
-
-        <!-- Start Shop Text Area -->
-        <section class="shop_text_area">
-            <div class="container">
-                <div class="row">
-                    <div class="shop_text_content">
-                        <!-- single shop text content -->
-                        <div class="single_shop_text_content">
-                            <h5>Inhaltsstoffe</h5>
-                            <p>
-                                Unser Öl enthält Oregano Öl aus biologischer Herkunft gewonnen in Griechenland, biologisches römische Kamille Öl, Thymian Thymol und Thymian ajowan Öl, biologisches Hanföl (CBD) und basiert auf einer
-                                Johanniskraut-Öl Basis. Lorem ipsum dolor sit. Lorem ipsum dolor sit. Lorem ipsum dolor sit.
-                            </p>
-                        </div>
-                        <!-- single shop text content -->
-
-                        <!-- single shop text content -->
-                        <div class="single_shop_text_content">
-                            <h5>Was macht den CBD-Extrakt so besonders?</h5>
-                            <p>Die sonnenverwöhnten Bio-Hanfpflanzen, die die Grundlage für unser Hanfextrakt bilden, reifen vor dem atemberaubenden Panorama der Schweizer Alpen heran. Sie werden</p>
-                            <p>
-                                auf traditionelle Weise geerntet. Das bedeutet: Handarbeit – denn nur so kann der optimale Reifezeitpunkt und damit die bestmögliche Qualität gesichert werden. Außerdem haben wir uns ganz bewusst für
-                                biologischen Anbau entschieden. Auf Pestizide und Mineraldünger wird hier verzichtet und die natürlichen Ressourcen unseres Planeten werden geschont. <a href="#">mehr</a>
-                            </p>
-                        </div>
-                        <!-- single shop text content -->
-
-                        <!-- single shop text content -->
-                        <div class="single_shop_text_content">
-                            <h5>Wie funktionieren  <span>ä</span>etherische <span>Ö</span>le?</h5>
-                            <p>
-                                Wissen ist Macht und probieren geht über Studieren. Hat man jahrelang Probleme mit immer wiederkehrenden Blasenentzündungen und schon mehrfache Antibiotika Therapien hinter sich, wirkt sich das äußerst
-                                negativ auf unseren Darm den Sitz des Immunsystems aus. Ein schwaches Immunsystem bedingt jedoch wiederum neue Entzündungen und so steckt man in einem Teufelskreis. <a href="#">mehr</a>
-                            </p>
-                        </div>
-                        <!-- single shop text content -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Shop Text Area -->
-
-        <!-- Start Shop Product Area -->
-        <section class="shop-product-area">
-            <div class="container">
-                <div class="shop-product-content">
-                    <div class="shop-product-heading-text">
-                        <p>Entdecke unsere anderen Produkte</p>
-                    </div>
-                                        <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <!-- single shop product content -->
-                            <div class="single-product-content">
-                                <div class="single-product-content-image">
-                                    <img src="assets/images/atwork_3.png" alt="Images" />
-                                </div>
-                                <div class="single-product-content-text">
-                                    <p>Gleitgel 100ml</p>
-
-                                    <div class="add-new-class-more">
-                                        <div class="more-product-details one">
-                                            <div class="more-product-details-image">
-                                                <img src="assets/images/atwork_3.png" alt="" />
-                                            </div>
-                                            <div class="more-product-details-text">
-                                                <p>
-                                                    Ist Nähe und Intimität mit dem Partner mit häufig darauf folgenden Entzündungen und Symptomen verknüpft, fällt es schwer und ist phasenweise sogar unmöglich eine gesunde Sexualität zu
-                                                    leben. Das Gleitgel mit seinen antibakteriellen und en- tzündungshemmenden Wirkstoffen, soll vor allem ein zusätzliches Gefühl der sich- erheit geben. Die beigefügten Milchsäure- bakterien
-                                                    sorgen dafür, dass die vaginalflo- ra intakt bleibt und CBD-Öl sorgt für ein entspanntes lustvolles Erlebnis.
-                                                </p>
-                                            </div>
+                            <!-- end mobile menu icon -->
+                            <!-- mobile menu content -->
+                            <!-- Start Mobile Dropdown Menu -->
+                            <div class="mobile_main_menu_content">
+                                <ul id="mu_accordion" class="mu_accordion">
+                                    <li class="p-3 menu-header d-flex justify-content-between">
+                                        <a class="tablinks text-white" href="index.html">
+                                            Menu
+                                        </a>
+                                        <a class="close-menu text-white">X</a>
+                                    </li>
+                                    <li>
+                                        <div class="link">
+                                            <a class="tablinks" href="index.html#product"> Products</a>
                                         </div>
-                                        <div class="sinlge-product-kaufen">
-                                            <a href="gleitgel.html">Kaufen</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- single shop product content -->
-                        </div>
+                                    </li>
 
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <!-- single shop product content -->
-                            <div class="single-product-content">
-                                <div class="single-product-content-image">
-                                    <img src="assets/images/atwork.png" alt="Images" />
-                                </div>
-                                <div class="single-product-content-text">
-                                    <p>Öl 100ml</p>
-                                    <div class="add-new-class-more">
-                                        <div class="more-product-details two">
-                                            <div class="more-product-details-image">
-                                                <img src="assets/images/atwork.png" alt="" />
-                                            </div>
-                                            <div class="more-product-details-text">
-                                                <p>
-                                                    Dreimal täglich auf den Bauch und unteren Rücken aufgetragen unterstützt das Öl mit antibakteriellen Inhaltsstoffen wie Oregano, Thymian und Lavendel und beruhigenden Bestandteilen wie
-                                                    CBD- Hanföl, Johannis- krautöl die Entzündung zu bekämpfen und Linderung zu schaffen. In Kombination mit dem Sitzbad lassen
-                                                </p>
-                                            </div>
+                                    <li>
+                                        <div class="link">
+                                            <a class="tablinks" href="index.html#wie_section">
+                                                Function
+                                            </a>
                                         </div>
-                                        <div class="sinlge-product-kaufen">
-                                            <a href="shop.html">Kaufen</a>
+                                    </li>
+                                    <li>
+                                        <div class="link">
+                                            <a class="tablinks" href="index.html#uber_section">
+                                                About
+                                            </a>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- single shop product content -->
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <!-- single shop product content -->
-                            <div class="single-product-content">
-                                <div class="single-product-content-image">
-                                    <img src="assets/images/atwork_2.png" alt="Images" />
-                                </div>
-                                <div class="single-product-content-text">
-                                    <p>Sitzbad 100g</p>
-                                    <div class="add-new-class-more">
-                                        <div class="more-product-details three">
-                                            <div class="more-product-details-image">
-                                                <img src="assets/images/atwork_2.png" alt="" />
-                                            </div>
-                                            <div class="more-product-details-text">
-                                                <p>
-                                                    1 mal täglich angewendet ist das Sitzbad eine potente Helfer und die perfekte Ergänzung zum Öl. Das im Sitzbad enthal- tene Meersalz mit seinen Makro-Mikro- elemente und Mineralien in
-                                                    Kombination mit den potenten Ölen hilft Entzünd- ungen zu regulieren und Giftstoffe schneller auszuleiten.
-                                                </p>
-                                            </div>
+                                    </li>
+                                    <li>
+                                        <div class="link">
+                                            <a class="tablinks" href="index.html#gle_section">
+                                                Ingredients
+                                            </a>
                                         </div>
-                                        <div class="sinlge-product-kaufen">
-                                            <a href="sitzbad.html">Kaufen</a>
+                                    </li>
+                                    <li>
+                                        <div class="link">
+                                            <a class="tablinks" href="index.html#philosophie">
+                                                Philosophy
+                                            </a>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- single shop product content -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Shop Product Area -->
-
-        <!-- Start footer main area -->
-        <footer class="footer_main_area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-123">
-                        <div class="footer_heading_area">
-                            <div class="left_footer_heading">
-                                <ul>
-                                    <li><a href="#">Presse</a></li>
-                                    <li><a href="#">Händler</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                    <li><a href="#">Versand & Sendungsverfolgung</a></li>
-                                    <li><a href="#">Retouren</a></li>
+                                    </li>
+                                    <li>
+                                        <div class="link">
+                                            <a class="tablinks" href="faq.html">
+                                                FAQ
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="link">
+                                            <a class="tablinks" href="kontact.html">
+                                                Contact
+                                            </a>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
-                            <div class="right_footer_heading">
-                                <div class="footer_right_txt">
-                                    <p>Melde Dich jetzt für unseren Newsletter an*:</p>
-                                    <div class="submit_mail_area">
-                                        <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" ="novalidate">
-                                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email" />
-                                            <button type="submit" name="subscribe" id="mc-embedded-subscribe"><img src="assets/images/button.png" alt="" /></button>
-                                        </form>
-                                    </div>
-                                </div>
+                            <div class="open-cart-menu">
+                                <ul>
+                                    <li class="p-3 menu-header d-flex justify-content-between">
+                                        <a class="tablinks text-white" href="index.html">
+                                            Warenkorb
+                                        </a>
+                                        <a class="text-white close-cart">X</a>
+                                    </li>
+                                    <li class="product gle">
+                                        <div class="row m-3">
+                                            <div class="col-md-3 p-4 d-flex justify-content-center cart-image">
+                                                <a href="#"><img src="assets/images/atwork_3.png" alt="Images"
+                                                                 style="width:40px"/></a>
+                                            </div>
+                                            <div class="col-md-4 p-4 d-flex flex-column flex-wrap justify-content-between">
+                                                <h4 class="mb-1">Gleitgel</h4>
+                                                <h4 class="mb-1">100ML</h4>
+                                                <div class="d-flex">
+                                                    <div class="value-button" id="decrease" onclick="decreaseValue()"
+                                                         value="Decrease Value">-
+                                                    </div>
+                                                    <input type="number" id="number" value="1"/>
+                                                    <div class="value-button" id="increase" onclick="increaseValue()"
+                                                         value="Increase Value">+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5 p-4 d-flex flex-column align-items-end justify-content-between">
+                                                <h4>€81.67</h4>
+                                                <p style="font-size: 20px;">100ML</p>
+                                                <a href="#"><h6>entfernen</h6></a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                    </li>
+                                    <li class="product oil">
+                                        <div class="row m-3">
+                                            <div class="col-md-3 p-4 d-flex justify-content-center cart-image">
+                                                <a href="#"><img src="assets/images/atwork.png" alt="Images"
+                                                                 style="width:40px"/></a>
+                                            </div>
+                                            <div class="col-md-4 p-4 d-flex flex-column flex-wrap justify-content-between">
+                                                <h4 class="mb-1">Öl</h4>
+                                                <h4 class="mb-1">100ML</h4>
+                                                <div class="d-flex">
+                                                    <div class="value-button" id="decrease" onclick="decreaseValue()"
+                                                         value="Decrease Value">-
+                                                    </div>
+                                                    <input type="number" id="number" value="1"/>
+                                                    <div class="value-button" id="increase" onclick="increaseValue()"
+                                                         value="Increase Value">+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5 p-4 d-flex flex-column align-items-end justify-content-between">
+                                                <h4>€81.67</h4>
+                                                <p style="font-size: 20px;">100ML</p>
+                                                <a href="#"><h6>entfernen</h6></a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                    </li>
+                                    <li class="product sit">
+                                        <div class="row m-3">
+                                            <div class="col-md-3 p-4 d-flex justify-content-center cart-image">
+                                                <a href="#"><img src="assets/images/atwork_2.png" alt="Images"
+                                                                 style="width:40px"/></a>
+                                            </div>
+                                            <div class="col-md-4 p-4 d-flex flex-column flex-wrap justify-content-between">
+                                                <h4 class="mb-1">Sitzbad</h4>
+                                                <h4 class="mb-1">1L</h4>
+                                                <div class="d-flex">
+                                                    <div class="value-button decrease" data-id="sit_number"
+                                                         onclick="decreaseValue()"
+                                                         value="Decrease Value">-
+                                                    </div>
+                                                    <input type="number" class="number" id="sit_number" value="1"/>
+                                                    <div class="value-button increase" data-id="sit_number"
+                                                         onclick="increaseValue()"
+                                                         value="Increase Value">+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5 p-4 d-flex flex-column align-items-end justify-content-between">
+                                                <h4>€81.67</h4>
+                                                <p style="font-size: 20px;">1L</p>
+                                                <a href="#"><h6>entfernen</h6></a>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                    </li>
+                                    <li class="shop-list"></li>
+                                    <li class="p-3 menu-header d-flex flex-column align-items-center">
+                                        <p class="check-out-text mb-2">Sie qualifizieren sich für den kostenlosen
+                                            Versand</p>
+                                        <button class="btn btn-primary m-3 check-out-button">Check Out</button>
+                                        <p class="check-out-text mb-2">Versand & Steuern bei Check Out berechnet</p>
+                                    </li>
+                                </ul>
                             </div>
-                        </div>
-                        <div class="footer_copyright_text">
-                            <p><span>DE</span>&copy;2021 Botanical Affairs GmbH. Alle Rechte vorbehalten.</p>
-                        </div>
-                        <div class="footer_bottom_txt">
-                            <p>Impressum ABG Datenschutz Widerrufsbelehrung Cookies</p>
-                            <div class="single_footer_btm_txt">
-                                <p>
-                                    Diese Produkte sind nicht zur Diagnose, Behandlung, Heilung oder Vorbeugung von Krankheiten bestimmt. Alle hier dargestellten Informationen sind nicht als Ersatz oder Alternative zu Informationen von
-                                    Ärzten oder Therapeuten gedacht. Bitte konsultieren Sie Ihren Arzt über mögliche Wechselwirkungen oder andere mögliche Komplikationen, bevor Sie ein Produkt verwenden.
-                                </p>
-                            </div>
-                            <div class="mit_footer_txt">
-                                <p>
-                                    * Mit Ihrer Registrierung bestätigen Sie, dass Sie mindestens 18 Jahre alt sind, und stimmen zu, dass die Botanical Affairs GmbH Ihre E-Mail-Adresse verwendet, um Sie regelmäßig über andere Produkte aus
-                                    dem Botanical Affairs Sortiment zu informieren. Sie können Ihre Einwilligung jederzeit widerrufen, indem Sie auf den Link zum Abbestellen im Newsletter klicken oder eine E-Mail an
-                                    service@botanicals.health senden. Weitere Informationen finden Sie in unserer Datenschutzerklärung
-                                </p>
-                            </div>
+                            <!-- End Mobile Dropdown Menu -->
+                            <!-- mobile menu content -->
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- ENd  footer main area -->
+        </div>
+    </div>
+</header>
+<!--End Header Area-->
 
-        <!-- JS File -->
-        <script src="assets/js/modernizr-3.11.2.min.js"></script>
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- Owl carousel js files -->
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/custom.js"></script>
-    </body>
+<!-- Start Shop Area header -->
+<section class="shop_area_header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="shop_header_left_content">
+                    <div class="shop_header_left_image">
+                        <a href="#"><img src="assets/images/atwork_2.png" alt="Images"/></a>
+                        <a href="#"><img src="assets/images/atwork_2.png" alt="Images"/></a>
+                        <a href="#"><img src="assets/images/atwork_2.png" alt="Images"/></a>
+                    </div>
+
+                    <div class="shop_header_left_slider owl-carousel owl-theme">
+                        <!-- single shop header slider -->
+                        <div class="shop_header_left_single_slider">
+                            <img src="assets/images/atwork_2.png" alt=""/>
+                        </div>
+                        <!-- single shop header slider -->
+
+                        <!-- single shop header slider -->
+                        <div class="shop_header_left_single_slider">
+                            <img src="assets/images/atwork_2.png" alt=""/>
+                        </div>
+                        <!-- single shop header slider -->
+
+                        <!-- single shop header slider -->
+                        <div class="shop_header_left_single_slider">
+                            <img src="assets/images/atwork_2.png" alt=""/>
+                        </div>
+                        <!-- single shop header slider -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="shop_header_right-content">
+                    <div class="shop_header_right_heading">
+                        <h3>Sitting bath</h3>
+                    </div>
+
+                    <div class="shop_header-right_review_content">
+                        <!-- single shop header review -->
+                        <div class="single_shop_header_review_content">
+                            <p>Size</p>
+                        </div>
+                        <!-- single shop header review -->
+
+                        <!-- single shop header review -->
+                        <div class="single_shop_header_review_content">
+                            <p>€81.67</p>
+                            <p>1L</p>
+                            <p>Inkl. MwSt.</p>
+                        </div>
+                        <!-- single shop header review -->
+
+                        <!-- single shop header review -->
+                        <div class="single_shop_header_review_content">
+                            <p>Reviews</p>
+                            <div class="single_review_icon">
+                                <ul>
+                                    <li>
+                                        <a href="#"><img src="assets/images/review.png" alt="Images"/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/review.png" alt="Images"/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/review.png" alt="Images"/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/review.png" alt="Images"/></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/images/review.png" alt="Images"/></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- single shop header review -->
+                    </div>
+
+                    <div class="shop_header_right_button">
+                        <!-- single first shop header button -->
+                        <div class="single_first_shop_header_button">
+                            <a href="#">500g</a>
+                        </div>
+                        <!-- single first shop header button -->
+
+                        <!-- single second shop header button -->
+                        <div class="single_second_shop_header_button">
+                            <a href="javascript:void(0)" class="add-cart" data-name="sit">Add to cart</a>
+                        </div>
+                        <!-- single second shop header button -->
+                    </div>
+
+                    <div class="shop_header_right_content_paragraf">
+                        <p>
+                            Used once a day, the sitz bath is a potent helper and the perfect complement to the oil. The
+                            sea salt contained in the sitz bath helps to regulate inflammation with its macro-micro
+                            elements and minerals. In combination with the potent oils, toxins are effectively
+                            eliminated and thus support the natural healing of the body.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Shop Area Header -->
+
+<!-- Start Shop Text Area -->
+<section class="shop_text_area">
+    <div class="container">
+        <div class="row">
+            <div class="shop_text_content">
+                <!-- single shop text content -->
+                <div class="single_shop_text_content">
+                    <h5>Ingredients</h5>
+                    <p>
+                        Our sitting bath based on regional healing clay from Rügen and sea salt contains highly potent
+                        anti inflammatory, anti fungal and soothing essential oils such as oregano oil from organic
+                        origin in Greece, organic Roman chamomile oil, organic lavender oil from the Provence, organic
+                        hemp oil (CBD) from Switzerland, precious Manuka oil and local organic Melissa oil.
+                    </p>
+                </div>
+                <!-- single shop text content -->
+
+                <!-- single shop text content -->
+                <div class="single_shop_text_content">
+                    <h5>What makes our CBD-Extract so special?</h5>
+                    <p>The sun-kissed organic hemp plants, which form the base for our hemp extract, ripen in front of
+                        the breathtaking panorama of the Swiss Alps will be harvested in a traditional way. <a
+                                href="javascript:void(0)" class="btn-more"
+                                data-id="cbd_extract">more</a></p>
+                    <p id="cbd_extract">
+                        That means: manual work - because that's the only way how we can ensure optimal ripening time
+                        and best possible quality. We also made a conscious decision to use organic farming. Pesticides
+                        and mineral fertilizers are not used and the natural resources of our planet are protected.
+                    </p>
+                </div>
+                <!-- single shop text content -->
+
+                <!-- single shop text content -->
+                <div class="single_shop_text_content">
+                    <h5>How do essential oils work?</h5>
+                    <p>Knowledge is power and the proof of the pudding is in the eating.
+                        If you have had problems with recurring bladder infections for years and have already
+                        undergone multiple antibiotic therapies, this has an extremely negative effect on our
+                        intestines, the seat of our immune system. A weak immune system in turn causes new
+                        inflammations - a vicious circle.<a href="javascript:void(0)" class="btn-more"
+                                                            data-id="essential_work">more</a></p>
+                    <p id="essential_work">
+                        Alleviate symptoms and gently combat the problem at its root
+                        Often, after recurring bladder infections, no bacteria are found to fight them. In this
+                        case, conventional medicine simply does not know of any means to alleviate the symptoms.
+                        Working with the body - not against it
+                        We don’t want your body to become more and more dependent and vulnerable. We want to help it
+                        to slowly heal itself and allow you to live a pain-free life again. Because recurrent
+                        bladder infections affect every aspect of your life as well as your attitude to life. And
+                        with our help, it doesn’t have to stay that way.
+                        Essentially, there are three different ways essential oils work on us:
+                        Through the skin, our sense of smell and our stomach.
+                        Through our skin:
+                        The specificity of the molecules of essential oils makes it possible for them to pass
+                        through our skin and cell membranes and work inside.This works for both the outer skin and
+                        the inner mucous membranes. Added to bath water or sitz bath, the oils also unfold their
+                        effect because they penetrate the skin. Whether they have a relaxing, stimulating or, as in
+                        our case, antibacterial and anti-inflammatory effect depends on the oil in question.
+                        Through our sense of smell:
+                        We can not only smell the scent of the oils. Our olfactory nerves also transmit the signal
+                        to the brain and in this way can influence our moods or awaken memories, depending on what
+                        we associate with the specific smells.
+                        Via our stomach:
+                        We can also absorb essential oils through our stomach if we consume appropriate plants,
+                        spices or special supplements. For example, ginger, thyme and peppermint contain essential
+                        oils. So when we season our food with them, we absorb the oils through the stomach.
+                    </p>
+                </div>
+                <!-- single shop text content -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Shop Text Area -->
+
+<!-- Start Shop Product Area -->
+<section class="shop-product-area"
+<section class="shop-product-area">
+    <div class="container">
+        <div class="shop-product-content">
+            <div class="shop-product-heading-text">
+                <p>Discover our products</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <!-- single shop product content -->
+                    <div class="single-product-content">
+                        <div class="single-product-content-image">
+                            <img src="assets/images/atwork_3.png" alt="Images"/>
+                        </div>
+                        <div class="single-product-content-text">
+                            <p>Lubrication 100ml</p>
+
+                            <div class="add-new-class-more">
+                                <div class="more-product-details one">
+                                    <div class="more-product-details-image">
+                                        <img src="assets/images/atwork_3.png" alt=""/>
+                                    </div>
+                                    <div class="more-product-details-text">
+                                        <p>
+                                            Ist Nähe und Intimität mit dem Partner mit häufig darauf folgenden
+                                            Entzündungen und Symptomen verknüpft, fällt es schwer und ist phasenweise
+                                            sogar unmöglich eine gesunde Sexualität zu
+                                            leben. Das Gleitgel mit seinen antibakteriellen und en- tzündungshemmenden
+                                            Wirkstoffen, soll vor allem ein zusätzliches Gefühl der sich- erheit geben.
+                                            Die beigefügten Milchsäure- bakterien
+                                            sorgen dafür, dass die vaginalflo- ra intakt bleibt und CBD-Öl sorgt für ein
+                                            entspanntes lustvolles Erlebnis.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="sinlge-product-kaufen">
+                                    <a href="gleitgel.html">Buy now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single shop product content -->
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <!-- single shop product content -->
+                    <div class="single-product-content">
+                        <div class="single-product-content-image">
+                            <img src="assets/images/atwork.png" alt="Images"/>
+                        </div>
+                        <div class="single-product-content-text">
+                            <p>Oil 100ml</p>
+                            <div class="add-new-class-more">
+                                <div class="more-product-details two">
+                                    <div class="more-product-details-image">
+                                        <img src="assets/images/atwork.png" alt=""/>
+                                    </div>
+                                    <div class="more-product-details-text">
+                                        <p>
+                                            Dreimal täglich auf den Bauch und unteren Rücken aufgetragen unterstützt das
+                                            Öl mit antibakteriellen Inhaltsstoffen wie Oregano, Thymian und Lavendel und
+                                            beruhigenden Bestandteilen wie
+                                            CBD- Hanföl, Johannis- krautöl die Entzündung zu bekämpfen und Linderung zu
+                                            schaffen. In Kombination mit dem Sitzbad lassen
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="sinlge-product-kaufen">
+                                    <a href="shop.html">Buy now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single shop product content -->
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <!-- single shop product content -->
+                    <div class="single-product-content">
+                        <div class="single-product-content-image">
+                            <img src="assets/images/atwork_2.png" alt="Images"/>
+                        </div>
+                        <div class="single-product-content-text">
+                            <p>Sitting bath 100g</p>
+                            <div class="add-new-class-more">
+                                <div class="more-product-details three">
+                                    <div class="more-product-details-image">
+                                        <img src="assets/images/atwork_2.png" alt=""/>
+                                    </div>
+                                    <div class="more-product-details-text">
+                                        <p>
+                                            1 mal täglich angewendet ist das Sitzbad eine potente Helfer und die
+                                            perfekte Ergänzung zum Öl. Das im Sitzbad enthal- tene Meersalz mit seinen
+                                            Makro-Mikro- elemente und Mineralien in
+                                            Kombination mit den potenten Ölen hilft Entzünd- ungen zu regulieren und
+                                            Giftstoffe schneller auszuleiten.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="sinlge-product-kaufen">
+                                    <a href="sitzbad.html">Buy now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single shop product content -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Shop Product Area -->
+
+<!-- Start footer main area -->
+<footer class="footer_main_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer_heading_area">
+                    <div class="left_footer_heading">
+                        <ul>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Retailers</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Shipping & Shipment tracking</a></li>
+                            <li><a href="#">Returns</a></li>
+                        </ul>
+                    </div>
+                    <div class="right_footer_heading">
+                        <div class="footer_right_txt">
+                            <p>Sign up for newsletter* : </p>
+                            <div class="submit_mail_area">
+                                <form action="#" method="post" id="mc-embedded-subscribe-form"
+                                      name="mc-embedded-subscribe-form" class="validate"
+                                =novalidate>
+                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                                       placeholder="Email"/>
+                                <button type="submit" name="subscribe" id="mc-embedded-subscribe"><img
+                                        src="assets/images/button.png" alt=""/></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_copyright_text">
+                    <p>
+                        ©2021 Botanical Affairs GmbH. All rights reserved.
+                    </p>
+                    <p>
+                        Imprint ABG Privacy Policy Cancellation Policy Cookies
+                    </p>
+                    <p>
+                        These products are not intended to diagnose, treat, cure, or prevent any disease. All
+                        information presented here is not intended as a substitute or alternative to information from
+                        physicians or therapists. Please consult your doctor about possible interactions or other
+                        potential complications before using any product.
+                    </p>
+
+                </div>
+                <div class="footer_bottom_txt">
+
+                    <div class="mit_footer_txt mt-5">
+                        <p>
+                            * By registering, you confirm that you are at least 18 years old and consent to Botanical
+                            Affairs GmbH using your e-mail address to inform you regularly about other products from the
+                            Botanical Affairs range. You can withdraw your consent at any time by clicking the
+                            unsubscribe link in the newsletter or by sending an email to hello.botanicals@gmail.com <br>
+                            For more information, please see our privacy policy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ENd  footer main area -->
+
+<!-- JS File -->
+<script src="assets/js/modernizr-3.11.2.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Owl carousel js files -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script>
+    $(function () {
+        $('.btn-more').click(function () {
+            var id = "#" + $(this).data('id');
+            $(id).slideToggle();
+        })
+    })
+</script>
+</body>
 </html>
